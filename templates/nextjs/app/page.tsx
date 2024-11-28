@@ -7,11 +7,10 @@ export default async function Homepage() {
 
   return (
     <div>
-      <h1>Keystatic ⚡️</h1>
-      <p>This homepage shows how to load a collection from the reader API.</p>
+      <h1>Iulian Ghepes⚡️</h1>
+      <p>Collection Blog Page.</p>
       <p>
-        <a href="/keystatic">Click here to visit the Admin UI</a>, or the link
-        below to view a post in the collection.
+        <a href="/ghepes-iulian">Click here to visit my Blog</a>, collection.
       </p>
       <h2>Posts</h2>
       <ul>
