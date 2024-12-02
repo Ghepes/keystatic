@@ -32,6 +32,7 @@ module.exports = {
   rules: {
     // '@typescript-eslint/consistent-type-imports': WARN,
     curly: [ERROR, 'multi-line'],
+    'react-compiler/react-compiler': 'error',
     'import/first': ERROR,
     'import/newline-after-import': ERROR,
     'import/no-duplicates': ERROR,
