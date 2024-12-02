@@ -19,7 +19,7 @@ export const outro = (ctx: Context) => {
         `  ${ctx.packageManager === 'npm' ? 'npm run' : ctx.packageManager} dev`
       ),
       color.reset(
-        `  http://127.0.0.1:${devServerPortLookup[ctx.framework]}/ghepes`
+        `  http://127.0.0.1:${devServerPortLookup[ctx.framework]}/keystatic`
       ),
     ].join('\n'),
     'Next steps'
