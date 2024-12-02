@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.2.8",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
     "typescript": "^5.5.3"
   }
 }

@@ -1,5 +1,8 @@
 {
   "name": "@keystar/ui-storybook",
   "version": "0.0.1",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625"
+  }
 }

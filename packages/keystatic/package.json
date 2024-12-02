@@ -199,6 +199,7 @@
     "@types/react-dom": "^18.0.11",
     "@types/signal-exit": "^3.0.1",
     "eslint": "^8.18.0",
+    "eslint-plugin-react-compiler": "^0.0.0-experimental-0998c1e-20240625",
     "fast-glob": "^3.2.12",
     "jest-diff": "^29.0.1",
     "outdent": "^0.8.0",
