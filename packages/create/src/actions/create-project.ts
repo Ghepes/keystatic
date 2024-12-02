@@ -17,8 +17,6 @@ const registryDomain = 'https://registry.npmjs.org';
 // These templates reference their npm package name
 const templates = {
   nextjs: '@keystatic/templates-nextjs',
-  astro: '@keystatic/templates-astro',
-  remix: '@keystatic/templates-remix',
 };
 
 type PackageInfo = {
@@ -39,8 +37,6 @@ export const createProject = async (ctx: Context) => {
 
   const templatesLookup: Record<Context['framework'], string> = {
     'Next.js': templates.nextjs,
-    Astro: templates.astro,
-    Remix: templates.remix,
   };
 
   const template = templatesLookup[ctx.framework];

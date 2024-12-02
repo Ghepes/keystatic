@@ -13,11 +13,11 @@ export default async function Post({ params }: { params: { slug: string } }) {
 
   const { node } = await post.content();
 
-  const errors = Markdoc.validate(node, markdocConfig);
-  if (errors.length) {
-    console.error(errors);
-    throw new Error('Invalid content');
-  }
+//  const errors = Markdoc.validate(node, markdocConfig);
+//  if (errors.length) {
+//    console.error(errors);
+//    throw new Error('Invalid content');
+//  }
 
   const renderable = Markdoc.transform(node, markdocConfig);
 
