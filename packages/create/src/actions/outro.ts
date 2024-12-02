@@ -4,8 +4,6 @@ import { Context } from '..';
 
 const devServerPortLookup: Record<Context['framework'], string> = {
   'Next.js': '3000',
-  Astro: '4321',
-  Remix: '2222',
 };
 
 export const outro = (ctx: Context) => {
@@ -21,7 +19,7 @@ export const outro = (ctx: Context) => {
         `  ${ctx.packageManager === 'npm' ? 'npm run' : ctx.packageManager} dev`
       ),
       color.reset(
-        `  http://127.0.0.1:${devServerPortLookup[ctx.framework]}/keystatic`
+        `  http://127.0.0.1:${devServerPortLookup[ctx.framework]}/ghepes`
       ),
     ].join('\n'),
     'Next steps'

@@ -7,8 +7,6 @@ export const frameworkChoice = async (ctx: Context) => {
     message: 'Pick a framework to use with Keystatic',
     options: [
       { value: 'Next.js', label: 'Next.js' },
-      { value: 'Astro', label: 'Astro' },
-      { value: 'Remix', label: 'Remix' },
     ],
   });
 
